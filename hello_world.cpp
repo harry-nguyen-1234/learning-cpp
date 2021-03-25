@@ -41,5 +41,6 @@ void sum_two_numbers(int num1, int num2/*Default value = 100*/) {
 
 void add_two_strings(std::string string1, std::string string2) {
     std::cout << "Addition of two strings is: " << string1 + string2 << '\n';
-    std::cout << "Length of combined string is: " << (string1 + string2).length() << '\n';
+    std::cout << "Length of combined string is: " << (string1 + 
+            string2).length() << '\n';
 }
